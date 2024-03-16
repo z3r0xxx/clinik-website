@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.App-header-banner {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #D9FDFF;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.App-header-banner-phone {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.App-header-banner-text {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.App-logo {
+    max-width: 110px;
+    pointer-events: none;
+    margin-right: 50px;
+}
+
+.App-header {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.App-header-nav-container {
+    display: flex; 
+    align-items: center;
+}
+
+.App-header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Оступ между элементами */
+.App-header-nav ul li {
+    margin-right: 30px;
+}
+
+/* Удаляем отступ справа у последнего элемента */
+.App-header-nav ul li:last-child {
+    margin-right: 0;
+}
+
+a.App-DefaultLink {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    transition: color 0.3s;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    font-weight: 500;
+}
+a.App-DefaultLink:hover {
+    color: transparent;
+}
+
+.App-User {
+    margin-left: 80px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.App-header-nav {
+    font-size: 20px;
+}
