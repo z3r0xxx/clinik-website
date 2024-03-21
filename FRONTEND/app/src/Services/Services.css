@@ -1,0 +1,70 @@
+.App-content-block {
+    margin-left: 322px;
+    margin-right: 300px;
+    margin-top: 60px;
+}
+
+.App-content-block-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    max-width: 630px;
+}
+
+.App-content-block-item {
+    width: 300px;
+    height: 210px;
+    background-color: #F6F8F7;
+    border-radius: 25px;
+    box-shadow: 3px 2px 2.8px rgba(0, 0, 0, 0.25);
+    margin-right: 24px;
+    margin-bottom: 29px;
+}
+.App-content-block-item:hover {
+    background-color: #eeeeee;
+}
+
+.App-content-block-item-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 200px;
+    height: 50px;
+    padding-left: 32px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.App-content-block-item-more-link-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-left: 32px;
+    padding-top: 93px;
+}
+
+.App-content-block-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App-content-block-items-line {
+    display: flex; 
+}
+
+.App-content-block-full-width-button {
+    text-align: center;
+    background-color: #F0F0F0;
+    border-radius: 19px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.App-content-block-full-width-button:hover {
+    background-color: #e2e1e1;
+}
